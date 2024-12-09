@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Shopping List</h1>
+  </header>
+
+    <div class="item-container">
+      <input type="text" id="product" placeholder="Product Name">
+      <input type="number" id="price" placeholder="Price">
+      
+      <button onclick="addItem()">Add to Cart</button>
+    </div>
+
+    <ul id="items-list"></ul>
+
+    <button onclick="clearCart()">Clear Cart</button>
+    <p id="total">Total: $0.00</p>
+    <p id="vat" >VAT (16%): $0.00</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

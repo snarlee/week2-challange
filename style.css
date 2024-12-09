@@ -1,0 +1,65 @@
+/*global styles */
+body{
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/156/095/non_2x/shopping-cart-logo-design-shopping-logo-design-on-line-shopping-app-icon-free-vector.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header styles*/
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 0.8);
+
+}
+
+main{
+
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #808080;
+border-radius: 10px;
+}
+/*item container styles */
+.item-container {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 10px; } 
+/* input button styles */
+.item-container input {
+    flex: 1;
+    padding: 10px; } 
+
+.item-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black; 
+    border: none; 
+    cursor: pointer; }
+/* items list styles*/
+#items-list { 
+    list-style-type: none; 
+    padding: 0; } 
+
+#items-list li { 
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ } 
+
+#total, #vat { 
+    font-weight: bold; }
+
+#items-list li button {
+    padding: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
