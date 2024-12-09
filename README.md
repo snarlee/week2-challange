@@ -8,9 +8,13 @@ This is a basic web-based shopping list application that allows users to:
 *How it Works:
 
 # User Interface: 
+
 (1)The user interacts with the application through a simple HTML interface.
+
 (2) Input fields are provided for entering product names and prices.
-(3) Buttons are used to add items, remove items, and clear the list. 
+
+(3) Buttons are used to add items, remove items, and clear the list.
+
 (4)The list of items and the total cost are displayed on the screen. 
 
 
